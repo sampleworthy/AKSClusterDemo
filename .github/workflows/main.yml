@@ -35,4 +35,4 @@ jobs:
       uses: Azure/cli@1.0.4
       with:
         # Specify the script here
-        inlineScript: az aks update -g ${{ env.resourceGroup }} -n ${{ env.name }} --kubernetes-version ${{ env.kubernetesVersion }} --generate-ssh-keys
+        inlineScript: az aks create -g ${{ env.resourceGroup }} -n ${{ env.name }} --kubernetes-version ${{ env.kubernetesVersion }} --generate-ssh-keys
