@@ -2,7 +2,7 @@ name: CI/CD AKS
 
 env:
   resourceGroup: 'APIMTesting'
-  kubernetesVersion: '1.27.0'
+  kubernetesVersion: '1.26.0'
   name: 'AKSdemo'
 
 # Controls when the action will run. 
